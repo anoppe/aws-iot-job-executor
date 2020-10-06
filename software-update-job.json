@@ -1,0 +1,4 @@
+{
+  "operation" : "update-firmware",
+  "firmwareLocation" : "https://iot-wg-ota-software.s3-eu-west-1.amazonaws.com/iot-wg-v1.0.0.zip"
+}

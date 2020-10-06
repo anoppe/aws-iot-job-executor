@@ -1,0 +1,22 @@
+{
+  "name": "aws-iot-jobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start-client": "npm run tsc && ./run-client.sh",
+    "prepare": "npm run tsc"
+  },
+  "keywords": [],
+  "author": "Auke Noppe <auke@noppe.nl> (https://github.com/anoppe)",
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk-v2": "^1.2.4",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "typescript": "^3.7.3"
+  }
+}
